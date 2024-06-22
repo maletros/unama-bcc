@@ -1,0 +1,203 @@
+  body {
+    font-family: "Oswald";
+    margin: 0; /* uma margem é a área entre o conteúdo principal de uma página e as bordas da página */
+    padding: 0; /* padding define uma a distância entre o conteúdo de um elemento e suas bordas */
+    background: black;
+  }
+  /*============================================================Cabeçalho*/
+  header {
+    display: flex;
+    justify-content: center;
+    background-color:black;
+  }
+
+  
+.logo img{
+  display:flex;
+  margin-left:-30px;
+}
+ .logo h2 {
+    color: white;
+    font-size: 25px;
+  }
+
+
+  .logo span {
+    color: white;
+  }
+
+  
+
+  .section1 {
+    display: flex; /* FLEX para botar os conteines, um do lado do outro*/
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  
+ .section1_title h3 {
+    color: white;
+    font-weight: normal; /*Deixar a Font Fina*/
+    font-size:30px
+  }
+
+  .section1_title h1 {
+    color: #05743e;
+    font-size: 30px;
+    line-height: 05px;
+    margin-top:-10px;
+  }
+.section1_title img{
+  width:80px;
+}
+
+
+
+  .section1_image img {
+    width: 380px; /*Largura*/
+    height: auto; /*Altura*/
+    margin-top: -50px;
+    margin-left: 55px;
+  }
+
+  /*============================================================Cards*/
+
+  .section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /*Colocar os itens dentro do conteiner em formato de coluna */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .section2 h2 {
+    color: white;
+    text-transform: uppercase; /*Deixa a font em caixa alta*/
+    font-size: 22px;
+  }
+
+  .section2_cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2f37;
+    width: 300px;
+    height: 185px;
+    margin-left: 25px;
+    color: white;
+  }
+
+
+  .card:hover {
+    /*animação de sobreposição do mouse*/
+    background-color: #05743e;
+    transition: 0.3s all;
+  }
+
+  /*============================================================Inf Front End*/
+
+  .section3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column; /* Colocar os itens em coluna */
+    justify-content: center;
+    align-items: center;
+    background: #05743e;
+    height: auto;
+}
+
+.section3_title {
+    text-align: center; /* Centralizar o texto */
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.section3_title h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.section3_title h3 {
+    margin-top: -26px;
+    color: black;
+    font-size: 25px;
+    font-weight: normal; /* Deixa a fonte mais fina */
+    text-align: center; /* Centralizar o texto */
+}
+
+.section3_title button {
+    background-color: white;
+    color: black;
+    margin-top: 20px; /* Adicionar espaço superior para separar do texto */
+}
+
+.section3_image {
+    width: auto; /* Largura */
+    height: auto; /* Altura */
+    margin-top: 20px; /* Adicionar espaço superior */
+    text-align: center; /* Centralizar a imagem */
+}
+
+  /*============================================================Form*/
+
+  .section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+  }
+
+  .section4 h2 {
+    color: white;
+    text-align: center;
+  }
+
+  input::placeholder {
+    color: black;
+    text-transform: uppercase; /*font em Caixa alto*/
+  }
+
+  button {
+    display: inline-block;
+    background-color:#05743e;
+    padding: 20px /*Baixo - Alto*/ 85px /*Esquerda e Direita*/;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold; /*Negrito*/
+    color:white;
+
+  }
+
+  /*============================================================Rodapé*/
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.social {
+    margin-top: -90px;
+    margin-bottom: 60px;
+}
+
+.social h3 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.social img {
+    width: 30px; /* Definindo a largura das imagens */
+    height: 30px; /* Definindo a altura das imagens */
+    margin-left: 15px;
+}
